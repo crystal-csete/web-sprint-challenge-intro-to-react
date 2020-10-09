@@ -2,16 +2,13 @@
 import React from "react";
 
 
-const Character = props => {
-    const { character } = props;
+const Character = (props) => {
+    const { char } = props;
 
     return (
-        <div className='character-text'>
-            <span className='character'>{character.name}</span>
-            {' '}
-            <span className='location'>{character.location}</span>
+        <div>
+            
         </div>
-    );
-};
-
+    )
+}
 export default Character;
